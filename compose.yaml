@@ -1,0 +1,44 @@
+name: herme-local
+
+services:
+  db:
+    image: mariadb:11.8
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: wordpress
+      MARIADB_USER: wordpress
+      MARIADB_PASSWORD: ${HERME_DB_PASSWORD:?Set HERME_DB_PASSWORD in .env}
+      MARIADB_ROOT_PASSWORD: ${HERME_DB_ROOT_PASSWORD:?Set HERME_DB_ROOT_PASSWORD in .env}
+    volumes:
+      - herme_db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mariadb-admin ping -h localhost -u root -p$$MARIADB_ROOT_PASSWORD --silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  wordpress:
+    image: wordpress:php8.3-apache
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:${HERME_PORT:-18766}:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: ${HERME_DB_PASSWORD:?Set HERME_DB_PASSWORD in .env}
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_HOME', 'http://localhost:${HERME_PORT:-18766}');
+        define('WP_SITEURL', 'http://localhost:${HERME_PORT:-18766}');
+        define('FS_METHOD', 'direct');
+    volumes:
+      - ./:/var/www/html
+      # Usa a cadeia de certificados confiável do host nas requisições do WordPress.
+      - /etc/ssl/cert.pem:/var/www/html/wp-includes/certificates/ca-bundle.crt:ro
+      - ./.docker/php/uploads.ini:/usr/local/etc/php/conf.d/herme-uploads.ini:ro
+
+volumes:
+  herme_db:

@@ -1,0 +1,35 @@
+# O repositório contém apenas o código do projeto e a configuração de desenvolvimento.
+/*
+!/.gitignore
+!/.env.example
+!/README.md
+!/compose.yaml
+!/.docker/
+!/wp-content/
+/wp-content/*
+!/wp-content/themes/
+/wp-content/themes/*
+!/wp-content/themes/herme-theme/
+
+# Arquivos locais ou sensíveis, mesmo dentro de pastas permitidas.
+**/.env
+**/.env.*
+!/.env.example
+**/wp-config.php
+**/wp-config-*.php
+**/node_modules/
+**/uploads/
+**/cache/
+**/backups/
+**/ai1wm-backups/
+**/wflogs/
+**/*.sql
+**/*.sqlite
+**/*.db
+**/*.log
+**/*.bak
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/.DS_Store

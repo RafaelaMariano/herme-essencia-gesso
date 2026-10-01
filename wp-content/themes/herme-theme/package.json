@@ -1,0 +1,16 @@
+{
+  "name": "herme-theme",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./assets/css/source.css -o ./assets/css/app.css --minify && npm run copy:gsap",
+    "dev": "tailwindcss -i ./assets/css/source.css -o ./assets/css/app.css --watch",
+    "copy:gsap": "mkdir -p assets/js/vendor && cp node_modules/gsap/dist/gsap.min.js node_modules/gsap/dist/ScrollTrigger.min.js assets/js/vendor/"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5"
+  }
+}

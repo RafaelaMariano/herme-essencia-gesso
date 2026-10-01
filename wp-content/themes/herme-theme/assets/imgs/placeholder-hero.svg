@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1300" role="img" aria-label="Imagem temporária da Hermé">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e9e3d7"/><stop offset="1" stop-color="#d7d0bf"/></linearGradient><linearGradient id="v" x2="0" y2="1"><stop stop-color="#faf5eb"/><stop offset="1" stop-color="#d8cfc0"/></linearGradient><filter id="s"><feGaussianBlur stdDeviation="24"/></filter></defs>
+<path fill="url(#bg)" d="M0 0h1100v1300H0z"/><path d="M0 1030q500-100 1100 20v250H0z" fill="#c8bdab"/><ellipse cx="595" cy="1020" rx="340" ry="70" fill="#807667" opacity=".28" filter="url(#s)"/>
+<path d="M170 1060q100-250 185-550" fill="none" stroke="#74765d" stroke-width="15"/><path d="M290 720q-150-55-130-170 135 5 130 170M305 665q90-145 170-110-44 110-170 110M235 865q-130-30-140-130 125-8 140 130" fill="#92977c"/>
+<ellipse cx="650" cy="980" rx="280" ry="60" fill="#eee7dc"/><path d="M500 650h275l-25 330H525z" fill="url(#v)"/><ellipse cx="637" cy="650" rx="137" ry="31" fill="#f8f1e6"/><ellipse cx="637" cy="656" rx="107" ry="18" fill="#d9cbb9"/><path d="M635 650v-95" stroke="#776a5b" stroke-width="7" stroke-linecap="round"/><path d="M635 535q-35-55 0-95 40 42 0 95" fill="#edd7a7" opacity=".75"/>
+<path d="M740 925q85-110 220-30l-20 85H760z" fill="#f7f0e5"/><text x="60" y="1245" fill="#484b3b" font-family="Arial,sans-serif" font-size="23" letter-spacing="4">IMAGEM TEMPORÁRIA · HERO.JPG</text>
+</svg>

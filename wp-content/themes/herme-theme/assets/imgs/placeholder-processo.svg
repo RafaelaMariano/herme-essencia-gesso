@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Imagem temporária do processo artesanal">
+<path fill="#e8e0d4" d="M0 0h800v1000H0z"/><path d="M0 750q400-80 800 0v250H0z" fill="#d5c8b6"/><ellipse cx="410" cy="780" rx="250" ry="70" fill="#b2a28d" opacity=".4"/>
+<path d="M245 590q-35-160 80-240 120-80 225 40 45 90-20 200" fill="#f5efe4" stroke="#c5b9a8" stroke-width="12"/><ellipse cx="395" cy="595" rx="180" ry="55" fill="#eee5d8"/><ellipse cx="395" cy="588" rx="130" ry="32" fill="#d8caba"/>
+<path d="M-30 390q150-60 245 50l100 180q45 60 105 15 30-27-8-60l-85-105q-40-40-30-80" fill="#b58f77" stroke="#9c765f" stroke-width="8"/><path d="M820 300q-200-10-260 150l-70 125q-30 65-115 40" fill="none" stroke="#ba967b" stroke-width="95" stroke-linecap="round"/>
+<text x="35" y="955" fill="#484b3b" font-family="Arial,sans-serif" font-size="18" letter-spacing="3">IMAGEM TEMPORÁRIA · PROCESSO</text>
+</svg>

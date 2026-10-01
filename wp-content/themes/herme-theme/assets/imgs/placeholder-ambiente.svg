@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Imagem temporária de ambiente decorado">
+<path fill="#ebe5d9" d="M0 0h1200v750H0z"/><path d="M0 565h1200v185H0z" fill="#c9b9a4"/><path d="M180 0h425v450H180z" fill="#f5f0e7"/><path d="M205 20h375v410H205z" fill="#d7dcca"/><path d="M392 20v410M205 220h375" stroke="#f8f4eb" stroke-width="17"/>
+<path d="M650 520q-20-180 125-210h225q140 30 115 210v105H650z" fill="#8e9275"/><path d="M705 400q65-45 130 0v145H705zM880 400q65-45 130 0v145H880z" fill="#aaad92"/><path d="M660 620h455" stroke="#776a5b" stroke-width="20"/>
+<path d="M370 575h220" stroke="#776a5b" stroke-width="24"/><path d="M395 575v110M570 575v110" stroke="#776a5b" stroke-width="15"/><ellipse cx="480" cy="565" rx="75" ry="18" fill="#f7efe2"/><path d="M440 440h80l-8 120h-64z" fill="#eee6d9"/><path d="M480 435v-60" stroke="#776a5b" stroke-width="5"/>
+<text x="35" y="715" fill="#484b3b" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">IMAGEM TEMPORÁRIA · AMBIENTE</text>
+</svg>

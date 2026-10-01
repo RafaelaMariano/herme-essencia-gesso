@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" role="img" aria-labelledby="title">
+  <title id="title">Hermé — Essência &amp; Gesso</title>
+  <circle cx="75" cy="75" r="74" fill="#74765D"/>
+  <circle cx="75" cy="75" r="72" fill="none" stroke="#EAE7DA" stroke-width=".9"/>
+  <circle cx="75" cy="75" r="68.7" fill="none" stroke="#EAE7DA" stroke-width=".45"/>
+  <g fill="none" stroke="#EAE7DA" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M73 53c12-10 17-23 19-38" stroke-width=".85"/>
+    <path d="M78 47c-6-7-7-12-5-17 6 2 7 7 5 17Zm5-7c7-7 8-12 9-17-6 2-9 8-9 17Zm3-9c-5-6-6-10-4-14 5 2 6 7 4 14Zm5-10c3-5 4-8 3-11-4 2-5 6-3 11Z" stroke-width=".6"/>
+    <path d="M79 45c-2-5-3-10-4-14m8 8 8-15m-5 7-4-13m9 3 3-11" stroke-width=".45"/>
+    <path d="M66 53c-10-4-17-5-23-4m4-5c-3-3-5-4-8-4 1 4 4 5 8 4Zm7 1c-3-4-3-6-2-9 4 3 4 6 2 9Zm1 3c3-3 7-4 10-3-2 4-5 5-10 3Z" stroke-width=".55"/>
+    <path d="M50 46c3 1 8 3 14 6" stroke-width=".5"/>
+  </g>
+  <text x="75" y="88" fill="#FBF8F2" font-family="Georgia, 'Times New Roman', serif" font-size="31" letter-spacing="3.2" text-anchor="middle">HERMÉ</text>
+  <text x="75" y="103" fill="#FBF8F2" font-family="Arial, sans-serif" font-size="5.7" letter-spacing="2.55" text-anchor="middle">ESSÊNCIA &amp; GESSO</text>
+  <path d="M62 113h10m6 0h10M75 118c-7-4-5-9 0-6 5-3 7 2 0 6Z" fill="none" stroke="#FBF8F2" stroke-width=".7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
